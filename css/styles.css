@@ -34,6 +34,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .link {
     text-decoration: none;
@@ -50,6 +51,14 @@ img {
 
 .list {
     list-style: none;
+}
+.head-menu {
+    display: flex;
+    gap: 40px;
+}
+.contact-list {
+    display: flex;
+    gap: 40px;
 }
 .menu {
     font-weight: 500;
