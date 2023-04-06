@@ -1,3 +1,5 @@
+@import 'node_modules/modern-normalize/modern-normalize.min.css';
+
 :root {
     --brand-color: #3f51b5;
 }
