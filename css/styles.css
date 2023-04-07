@@ -118,7 +118,7 @@ img {
     display: flex;
     gap: 24px;
 }
-.principle-point {
+.principle_point {
     width: calc((100% - 72px) / 4);
 }
 .third-header {
