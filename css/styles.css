@@ -154,6 +154,7 @@ img {
 }
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .fourth-header {
     font-size: 36px;
@@ -162,9 +163,15 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
-.team-member-list {
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.team-member {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 .name {
     font-weight: 500;
