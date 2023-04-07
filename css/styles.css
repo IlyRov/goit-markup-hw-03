@@ -111,12 +111,23 @@ img {
 .hero-button:focus {
     background-color: #404BBF;
 }
+.container-two {
+    padding: 120px 0;
+}
+.principle-list {
+    display: flex;
+    gap: 24px;
+}
+.principle-point {
+    width: calc((100% - 72px) / 4);
+}
 .third-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .principle-paragraph {
     line-height: 1.5;
