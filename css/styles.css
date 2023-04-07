@@ -209,6 +209,15 @@ img {
         max-width: 264px;
         color: #F4F4FD;
 }
+.portfolio-section {
+    padding: 96px 210px;
+}
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 .project-type {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -218,14 +227,19 @@ img {
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 .project-type:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .project-type:focus {
     color: #FFFFFf;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .concept {
     font-weight: 500;
