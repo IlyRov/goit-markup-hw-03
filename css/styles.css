@@ -133,6 +133,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.section-three {
+    padding-bottom: 120px;
+}
 .accomplishments {
     font-size: 36px;
     line-height: 1.11;
@@ -140,6 +143,14 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+.accomplishments-list {
+    display: flex;
+    gap: 24px;
+}
+.image-list {
+    width: calc((100% - 48px) / 3);
 }
 .team {
     background-color: #F4F4FD;
