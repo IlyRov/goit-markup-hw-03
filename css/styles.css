@@ -119,7 +119,7 @@ img {
     gap: 24px;
 }
 .principle_point {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 .third-header {
     font-weight: 500;
