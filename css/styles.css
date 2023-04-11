@@ -7,6 +7,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
 }
 img {
     display: block;
@@ -21,6 +23,7 @@ img {
 .container {
     width: 1158px;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
 }
 .navigation {
     display: flex;
@@ -51,6 +54,8 @@ img {
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .head-menu {
     display: flex;
@@ -70,6 +75,8 @@ img {
 }
 .contacts {
     font-style: normal;
+    margin: 0 auto;
+    padding: 0;
 }
 .message {
     line-height: 1.5;
@@ -87,6 +94,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: 0 auto;
 }
 .hero-button {
     background-color: #4D5AE5;
@@ -98,7 +106,7 @@ img {
     color: #ffffff;
     cursor: pointer;
     display: block;
-    margin-left: 248px;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -115,6 +123,8 @@ img {
     padding: 120px 0;
 }
 .principle-list {
+    margin: 0;
+    padding: 0;
     display: flex;
     gap: 24px;
 }
@@ -211,6 +221,18 @@ img {
 }
 .portfolio-section {
     padding: 96px 120px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .button-list {
     display: flex;
