@@ -15,20 +15,30 @@ img {
 }
 .head {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+    height: 72px;
 }
+
 .head-container {
     display: flex;
     align-items: center;
 }
+
 .container {
     width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
 }
+
 .navigation {
     display: flex;
     align-items: center;
+    height: 24px;
+    margin-top: 24px;
 }
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -54,7 +64,7 @@ img {
 
 .list {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .head-menu {
@@ -76,7 +86,9 @@ img {
 .contacts {
     font-style: normal;
     margin: 0 auto;
-    padding: 0;
+    padding-left: 332px;
+    height: 24px;
+    margin-top: 24px;
 }
 .message {
     line-height: 1.5;
@@ -112,6 +124,7 @@ img {
     border: none;
     background-color: #4d5ae5;
     border-radius: 4px;
+    margin-top: 48px;
 }
 .hero-button:hover {
     background-color: #404BBF;
@@ -181,11 +194,13 @@ img {
 }
 .team-member {
     background-color: #FFFFFF;
+    margin: 0 auto;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .member-description {
     padding: 32px 16px;
+    margin: 0 auto;
 }
 .name {
     font-weight: 500;
@@ -194,12 +209,14 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 8px;
 }
 .job-title {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0 auto;
     text-align: center;
 }
 .bottom {
@@ -223,16 +240,16 @@ img {
     padding: 96px 0 120px;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .button-list {
     display: flex;
@@ -283,12 +300,14 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0 auto;
     margin-bottom: 8px;
 }
 .concept-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0 auto;
     color: #434455;
 }
 .foot-logo {
