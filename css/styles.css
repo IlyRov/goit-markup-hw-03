@@ -12,15 +12,70 @@ body {
 }
 img {
     display: block;
+    margin: 0 auto;
+}
+header{
+    margin-top: 0 auto;
+}
+div{
+    margin: 0 auto;
+}
+ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6,{
+    margin: 0 auto;
+}
+address{
+    margin: 0 auto;
+}
+input{
+    margin: 0 auto;
+}
+label{
+    margin: 0 auto;
+}
+option{
+    margin: 0 auto;
+}
+select{
+    margin: 0 auto;
+}
+button{
+    margin: 0 auto;
+}
+svg{
+    margin: 0 auto;
+}
+object{
+    margin: 0 auto;
+}
+main{
+    margin: 0 auto;
+}
+article{
+    margin: 0 auto;
+}
+nav{
+    margin: 0 auto;
+}
+footer{
+    margin: 0 auto;
+}
+section{
+    margin: 0 auto;
 }
 .head {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-    height: 72px;
 }
-
 .head-container {
     display: flex;
     align-items: center;
@@ -35,8 +90,7 @@ img {
 .navigation {
     display: flex;
     align-items: center;
-    height: 24px;
-    margin-top: 24px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -86,9 +140,6 @@ img {
 .contacts {
     font-style: normal;
     margin: 0 auto;
-    padding-left: 332px;
-    height: 24px;
-    margin-top: 24px;
 }
 .message {
     line-height: 1.5;
@@ -150,7 +201,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin: 0 auto;
+
 }
 .principle-paragraph {
     line-height: 1.5;
@@ -166,6 +218,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin: 0 auto;
     margin-bottom: 72px;
 }
 .accomplishments-list {
@@ -186,6 +239,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin: 0 auto;
     margin-bottom: 72px;
 }
 .team-list {
